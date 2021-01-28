@@ -1,0 +1,22 @@
+{
+  "name": "androlax2/wp-plugin-activation-manifest",
+  "description": "Simple file-based plugin activation control for WordPress.",
+  "require": {
+    "php": ">=7.0",
+    "androlax2/wp-plugin-control": "~0.1.0",
+    "symfony/yaml": "^5.2"
+  },
+  "authors": [
+    {
+      "name": "Théo Benoit",
+      "email": "theo.benoit16@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Androlax2\\WordPress\\PluginManifest\\": [
+        "src/"
+      ]
+    }
+  }
+}
